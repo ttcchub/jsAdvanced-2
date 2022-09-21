@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Responsive Web Page</title>
+  </head>
+  <body>
+    <header class="nav-active nav-fixed">
+      <div class="logo">
+        <img class="logo" src="zaza.png" alt="Girl in a jacket" width="250" height="150">
+      </div>
+      <nav class="responsive">
+        <button id="mob_button" >
+            <span class="material-symbols-outlined">
+                menu
+                </span>
+        </button>
+        <ul class="nav">
+          <li><a href="#firstSection">First</a></li>
+          <br>
+          <li><a href="#secondSection">Second</a></li>
+          <br>
+          <li><a href="#thirdSection">Third</a></li>
+          <br>
+          <li><a href="#fourthSection">Fourth</a></li>
+          <br>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main class="body-sessions">
+      <section class="first-section" id="firstSection">
+        <div class="mini-first">
+          <p>First section</p>
+                <button class="trigger">Click here to trigger the modal!</button>
+                <div class="modal">
+                    <div class="modal-content">
+                        <span class="close-button">&times;</span>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                          Voluptatum sint, illum soluta, debitis perferendis quis
+                          dignissimos ut assumenda, doloremque ratione cupiditate quisquam.
+                          Aspernatur alias, ducimus nesciunt velit cupiditate magnam!
+                          Deleniti facilis iure provident incidunt ipsam accusamus ullam
+                          adipisci sed vel officia pariatur illum harum excepturi enim fuga
+                          rem quidem explicabo, praesentium veritatis inventore placeat!
+                          Nulla ullam libero exercitationem mollitia est, sed suscipit!
+                          Aperiam aspernatur saepe voluptatum, animi sunt suscipit at?
+                        </p>>
+                      </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="second-section" id="secondSection">
+        2nd Section
+      </section>
+      <section class="third-section" id="thirdSection"> 3d Section</section>
+      <section class="fourth-section" id="fourthSection"> 4th Section </section>
+    </main>
+    <footer class="page-footer" id="contact">
+      <p>Copyright &copy; 2022</p>
+    </footer id="contact" >
+
+
+    <button onclick="topFunction()" class="btn" id="myBtn" title="Go to top">Top</button>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
